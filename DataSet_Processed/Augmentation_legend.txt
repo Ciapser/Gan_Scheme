@@ -1,0 +1,16 @@
+_m1_cr0_0_0_0_0_0
+
+_m1 : dataset_multiplier: [Dataset was multiplied m times; m1 = no augmentation, m2 = doubled, m3 = tripled etc...]
+
+_cr0: class reduction: [Reduction of each class to specified amount; cr0 = No reduction, cr1 = only one sample per class, cr1000 = 1000 samples per class]
+
+Rest is augmentation labels where:
+
+[_0_0_0_0_0] 
+[_1_2_3_4_5]
+
+1: Fliprotate: 		Flips and rotate image randomly
+2: RandBright:		Applies random brightess to image within specified range	 
+3: Gaussian		Adds gaussian noise to the image
+4: Denoise		Denoises the image
+5: Contour 		Applies contour as additionall channel
