@@ -1,5 +1,7 @@
 # Ignore everything in these directories
-
+DataSet/*
+DataSet_Processed/*
+Models_saved/*
 
 Models milestones and benchmark.xlsx
 __pycache__/
